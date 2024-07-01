@@ -28,6 +28,7 @@ html {
     height: 90%;
     background-color: #242529;
     box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.3);
+    position: relative;
 }
 
 .navbar {
@@ -64,4 +65,22 @@ html {
     color: #ddd;
 }
 
-.
+.lamp {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20rem;
+    height: 30rem;
+}
+
+.wire {
+    width: 0.4rem;
+    height: 10rem;
+    background-color: #1e2024; 
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
